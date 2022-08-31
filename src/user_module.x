@@ -1,3 +1,6 @@
+// Copyright 2022 Google LLC.
+// SPDX-License-Identifier: Apache-2.0
+
 fn popcount(n: u8) -> u8 {
   for (i, c): (u8, u8) in u8:0..u8:8 {
     c + ((n >> i) & u8:1)
